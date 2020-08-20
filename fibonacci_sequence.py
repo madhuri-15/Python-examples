@@ -1,7 +1,6 @@
 
 
-def fibo(n):
-    
+def fibo(n): 
     a = 0
     b = 1
     for i in range(n):
@@ -10,3 +9,4 @@ def fibo(n):
 
 n = 10
 fibo(n)
+
