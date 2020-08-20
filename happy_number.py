@@ -10,7 +10,7 @@ def is_happy(num):
 	   replaced by the sum of the square of each digit.
 	"""
 	def sum_sq(num):
-
+		
 		n = len(str(num))
 		temp = num
 		sum_ = 0
