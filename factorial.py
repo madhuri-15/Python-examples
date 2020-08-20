@@ -7,6 +7,9 @@ def factorial(n):
 	this function return a factorial of number 'n', 
 	the factorial of number is a product of number from 1
 	to that number.
+	
+	for example:
+	factorial of 5 = 1 * 2 * 3 * 4 * 5 = 120.
 	"""
     if n < 0:
     	return ("Factorial cannot be found for negative numbers.")
@@ -14,8 +17,7 @@ def factorial(n):
     if n == 0 or n == 1:
         return ("Factorial of {} is 1".format(n))
     
-    if n > 0:
-        
+    if n > 0: 
         fact = 1
         for i in range(1, n+1):
             fact = fact * i
@@ -24,6 +26,5 @@ def factorial(n):
     
 #n = int(input("enter a number: "))
 
-
 print(factorial(5))
-print(factorial.__doc__)
+
