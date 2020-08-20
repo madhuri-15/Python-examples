@@ -1,5 +1,5 @@
 #find a given number is prime or not.
-import time
+
 def is_prime(num):
     
     for i in range(2, num):
