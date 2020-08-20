@@ -45,7 +45,5 @@ def calculator():
 	elif op == 4:
 		print("{} / {} = {}".format(a, b, division(a, b)))
 
+calculator() #function call.
 
-
-
-calculator()
