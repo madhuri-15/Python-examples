@@ -11,5 +11,3 @@ num = 11
 print(is_even(num))
 
 
-##Or
-
