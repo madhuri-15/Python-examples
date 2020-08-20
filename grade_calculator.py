@@ -18,7 +18,7 @@ def get_grade(mark_list):
 	if True in result:
 		return "Grade F"
 
-	total = 100
+	total = 500
 	marks_obtained = sum(mark_list)
 
 	percentage = ( marks_obtained / total ) * 100
@@ -50,3 +50,4 @@ for i in range(len(subjects)):
 	mark_list.append(marks)
 
 print(get_grade(mark_list))
+
