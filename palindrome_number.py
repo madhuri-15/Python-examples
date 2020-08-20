@@ -11,7 +11,6 @@ def palindrome_number(num):
 
 	if num == num1:
 		print("Number is Palindrome Number.")
-
 	else:
 		print("Number is Not Palindrome Number.")
 
