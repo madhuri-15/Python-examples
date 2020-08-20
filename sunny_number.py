@@ -12,9 +12,10 @@ def is_sunny(num):
 	   of 5 which is an integer.
 	"""
 	import math as m
+	
 	temp = num + 1
-
 	sqrt = m.sqrt(temp)
+	
 	if int(sqrt) == sqrt:
 		print('Sunny Number.')
 	else:
