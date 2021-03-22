@@ -1,4 +1,4 @@
-# Python-Project
+# Python Practice Examples.
 
 This Python projects list:
 1. Python program to find a all prime numbers in a given range.
