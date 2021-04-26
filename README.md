@@ -7,3 +7,4 @@ This Python projects list:
 4. Python Program to find a average of numbers in list.
 5. Simple calculator using Python.
 
+and Many More!!!
